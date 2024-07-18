@@ -9,7 +9,7 @@ export  function Footer() {
   const [value, setValue] = React.useState(0);
 
   return (
-    <Box width={"100vw"} position="absolute" pb={"0px"} >
+    <Box width={"75vw"} position="absolute" pb={"0px"} >
     <BottomNavigation
       showLabels
       value={value}

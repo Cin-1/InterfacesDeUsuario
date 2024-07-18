@@ -10,7 +10,7 @@ import CoffeeIcon from "@mui/icons-material/Coffee";
 
 export default function ButtonAppBar() {
   return (
-    <Box width={"100vw"} position="sticky" px="6">
+    <Box width={"100vw"} position="sticky" px="6" sx={{ zIndex: '9999' }}>
       <AppBar >
         <Box
           display={"flex"}
