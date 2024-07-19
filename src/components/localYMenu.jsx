@@ -1,4 +1,4 @@
-import { ImageList, ImageListItem } from '@mui/material';
+import { Box, ImageList, ImageListItem } from '@mui/material';
 import * as React from 'react';
 import cafeImage from '../images/cafe.jpg';
 import bagelImage from '../images/bagel.jpg';
@@ -16,12 +16,16 @@ export default function FotosDeComida() {
     <ImageList sx={{ width: '100%', height: '100%' }} cols={3}>  
       {itemData.map((item) => (
         <ImageListItem key={item.img}>
+          <p> 
+          
+          </p>
           <img objectFit='contain'
             srcSet={`${item.img}?w=164&h=164&fit=crop&auto=format&dpr=2 2x`}
             src={`${item.img}?w=164&h=164&fit=crop&auto=format`}
             alt={item.title}
             loading="lazy"
           />
+            <button id= {item.img} >{item.title} </button>
         </ImageListItem>
       ))}
     </ImageList>
@@ -29,9 +33,11 @@ export default function FotosDeComida() {
 }
 
 const itemData = [
-  {
+  
+   {
+    
     img: cafeImage,
-    title: 'Taza de Cafe suizo',
+    title: 'Café',
   },
   {
     img: bagelImage,
@@ -47,7 +53,7 @@ const itemData = [
   },
   {
     img: teImage,
-    title: 'Te',
+    title: 'Té',
   },
   {
     img: tostadoImage,
