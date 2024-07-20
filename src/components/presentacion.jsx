@@ -1,12 +1,12 @@
 import * as React from "react";
 import Box from "@mui/material/Box";
-import tostadoImage from "../../public/images/tostadoP.jpg";
+import tostadoImage from "../images/tostadoP.jpg";
 
 export default function SimpleContainer() {
   return (
-    <Box sx={{ height: "100vh" }}>
+    <Box sx={{ height: "100vh" }} color="primary">
       <p>
-        En "Tostados del Mundo," nos especializamos en ofrecer una experiencia
+        En Tostados del Mundo, nos especializamos en ofrecer una experiencia
         culinaria única en Argentina con nuestros famosos tostados de jamón y
         queso. Nuestra cafetería es un lugar acogedor y moderno, diseñado para
         que te sientas como en casa desde el momento en que entras. Con una
@@ -15,7 +15,7 @@ export default function SimpleContainer() {
         café relajado o una charla amena con amigos y familiares.
       </p>
       <p>
-        La historia de "Tostados del Mundo" comienza en Suiza, donde descubrimos
+        La historia de Tostados del Mundo comienza en Suiza, donde descubrimos
         una pequeña cafetería familiar que llevaba generaciones perfeccionando
         la receta del tostado de jamón y queso. Inspirados por su dedicación a
         la calidad y a los ingredientes artesanales, decidimos traer esta
@@ -25,7 +25,7 @@ export default function SimpleContainer() {
         encantado a nuestros clientes desde el primer día.
       </p>
       <p>
-        En "Tostados del Mundo," nuestra filosofía se centra en la calidad, la
+        En Tostados del Mundo, nuestra filosofía se centra en la calidad, la
         autenticidad y la satisfacción del cliente. Nos enorgullece utilizar
         solo los mejores ingredientes, seleccionados con cuidado para garantizar
         que cada tostado sea una obra maestra culinaria. Creemos que la comida

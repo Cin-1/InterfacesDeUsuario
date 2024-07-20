@@ -9,8 +9,8 @@ import CoffeeIcon from "@mui/icons-material/Coffee";
 
 export default function ButtonAppBar() {
   return (
-    <Box width={"100vw"} position="sticky" px="6" sx={{ zIndex: '9999' }}>
-      <AppBar >
+    <Box width={"100vw"} position="sticky" px="6" sx={{ zIndex: "9999" }}>
+      <AppBar>
         <Box
           display={"flex"}
           justifyContent={"space-between"}
@@ -25,9 +25,15 @@ export default function ButtonAppBar() {
           >
             <MenuIcon />
           </IconButton>
-          <Button variant="contained" size="medium"  >Historia</Button>
-          <Button variant="contained" size="medium">Menú</Button>
-          <Button variant="contained" size="medium">Ubicación</Button>
+          <Button variant="contained" size="medium">
+            Historia
+          </Button>
+          <Button variant="contained" size="medium">
+            Menú
+          </Button>
+          <Button variant="contained" size="medium">
+            Ubicación
+          </Button>
           <Box
             display="flex"
             justifyContent={"space-around"}
@@ -39,7 +45,6 @@ export default function ButtonAppBar() {
             </Typography>
             <CoffeeIcon />
           </Box>
-          
         </Box>
       </AppBar>
     </Box>
