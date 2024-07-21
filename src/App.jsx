@@ -6,6 +6,7 @@ import { PageContainer } from "./components/container";
 import { Map } from "./components/map";
 import { NavBar } from "./components/navBar";
 import { Schedule } from "./components/schedule";
+import VideoContainer from "./components/video";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <Galery />
           <Schedule />
           <Map />
+          <VideoContainer />
         </PageContainer>
         <Footer />
       </Layout>
