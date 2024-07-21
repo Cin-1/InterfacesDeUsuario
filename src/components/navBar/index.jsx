@@ -1,12 +1,11 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import Box from "@mui/material/Box";
-import MuiAppBar from "@mui/material/AppBar";
 import Typography from "@mui/material/Typography";
 import Button from "@mui/material/Button";
 import IconButton from "@mui/material/IconButton";
 import MenuIcon from "@mui/icons-material/Menu";
 import CoffeeIcon from "@mui/icons-material/Coffee";
-import { AppBar, Toolbar } from "@mui/material";
+import { AppBar } from "@mui/material";
 
 export function NavBar() {
   const [firstLoad, setFirstLoad] = useState(false);
