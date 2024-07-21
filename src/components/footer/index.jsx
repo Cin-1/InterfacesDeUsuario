@@ -48,7 +48,7 @@ export const Footer = () => {
                 alignItems: "center",
               }}
             >
-              <Box display="flex" justifyContent={"space-between"}>
+              <Box display="flex" justifyContent={"space-between"} >
                 <Box>
                   <Face4Icon3 />
                   <Typography variant="h6" color="textPrimary" fontWeight={500}>

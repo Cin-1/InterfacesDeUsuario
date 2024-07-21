@@ -1,5 +1,5 @@
 import Box from "@mui/material/Box";
-import tostadoImage from "../../assets/images/tostadoP.jpg";
+import tostadoImage from "../../assets/images/tostado.jpg";
 import { Typography } from "@mui/material";
 
 export default function VideoContainer() {
@@ -23,7 +23,7 @@ export default function VideoContainer() {
           height: "500px",
         }}
       >
-        <Box sx={{ width: "50%", overflow: "hidden" }}>
+        <Box sx={{ width: "50%", overflow: "hidden", position:"relative"}}>
           <img
             src={tostadoImage}
             alt="Tostados del mundo"
