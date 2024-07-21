@@ -48,19 +48,19 @@ export const Footer = () => {
               }}
             >
               <Box display="flex" justifyContent={"space-between"} >
-                <Box>
-                  <Face4Icon3 />
-                  <Typography variant="h6" color="textPrimary" fontWeight={500}>
-                    Nicolas Trias
+              <Box sx={{ display: 'flex', alignItems: 'center' }}>
+                <Face4Icon3 />
+                  <Typography variant="h6" color="textPrimary" fontWeight={500} mr={2} >
+                     Nicolas Trias
                   </Typography>
                 </Box>
-                <Box sx={{ px: 2 }}>
+                <Box sx={{ display: 'flex', alignItems: 'center' }}>
                   <Face4Icon2 />
-                  <Typography variant="h6" color="textPrimary" fontWeight={500}>
+                  <Typography variant="h6" color="textPrimary" fontWeight={500} mr={2}>
                     Cinthia Pardos
                   </Typography>
                 </Box>
-                <Box>
+                <Box sx={{display: 'flex', alignItems: 'center'} }>
                   <Face4Icon />
                   <Typography variant="h6" color="textPrimary" fontWeight={500}>
                     Octavio Cecio
@@ -99,3 +99,6 @@ export const Footer = () => {
     </>
   );
 };
+
+
+ 
