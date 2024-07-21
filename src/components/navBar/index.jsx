@@ -1,4 +1,3 @@
-import * as React from "react";
 import AppBar from "@mui/material/AppBar";
 import Box from "@mui/material/Box";
 import Typography from "@mui/material/Typography";
@@ -7,7 +6,7 @@ import IconButton from "@mui/material/IconButton";
 import MenuIcon from "@mui/icons-material/Menu";
 import CoffeeIcon from "@mui/icons-material/Coffee";
 
-export default function ButtonAppBar() {
+export function NavBar() {
   return (
     <Box width={"100vw"} position="sticky" px="6" sx={{ zIndex: "9999" }}>
       <AppBar>

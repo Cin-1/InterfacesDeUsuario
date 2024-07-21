@@ -1,22 +1,20 @@
-import { Box } from "@mui/material";
 import "./App.css";
 import { Footer } from "./components/footer";
-import SearchAppBar from "./components/navbar";
-import SimpleContainer from "./components/presentacion";
-import FotosDeComida from "./components/localYMenu";
-import Ubicacion from "./components/mapa";
-import { Horario } from "./components/contacto";
+import { Galery } from "./components/galery";
+import { HeroBanner } from "./components/heroBanner";
+import { Map } from "./components/map";
+import { NavBar } from "./components/navBar";
+import { Schedule } from "./components/schedule";
 
 function App() {
   return (
     <>
-      <SearchAppBar />
-      <SimpleContainer></SimpleContainer>
-      <FotosDeComida></FotosDeComida>
-      <Horario></Horario>
-      <Ubicacion></Ubicacion>
-      
-      <Footer></Footer>
+      <NavBar />
+      <HeroBanner />
+      <Galery />
+      <Schedule />
+      <Map />
+      <Footer />
     </>
   );
 }

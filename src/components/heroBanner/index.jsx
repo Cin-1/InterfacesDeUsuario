@@ -1,8 +1,7 @@
-import * as React from "react";
 import Box from "@mui/material/Box";
-import tostadoImage from "../images/tostadoP.jpg";
+import tostadoImage from "../../assets/images/tostadoP.jpg";
 
-export default function SimpleContainer() {
+export function HeroBanner() {
   return (
     <Box sx={{ height: "100vh" }} color="primary">
       <p>

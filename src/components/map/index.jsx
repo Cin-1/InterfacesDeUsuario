@@ -1,7 +1,7 @@
 import Box from "@mui/material/Box";
-import restaurant from "../../public/images/restaurante.jpg";
+import restaurant from "../../assets/images/restaurante.jpg";
 
-export default function Ubicacion() {
+export function Map() {
   return (
     <Box
       sx={{

@@ -1,15 +1,15 @@
 import { ImageList, ImageListItem } from "@mui/material";
-import cafeImage from "../../public/images/cafe.jpg";
-import bagelImage from "../../public/images/bagel.jpg";
-import milkshakeImage from "../../public/images/milkshake.jpg";
-import submarinoImage from "../../public/images/submarino.jpg";
-import tortaImage from "../../public/images/torta.jpg";
-import tostadoImage from "../../public/images/tostado.jpg";
-import teImage from "../../public/images/te.jpg";
-import croissantImage from "../../public/images/croissant.jpg";
-import capuccinoImage from "../../public/images/capuccino.jpg";
+import cafeImage from "../../assets/images/cafe.jpg";
+import bagelImage from "../../assets/images/bagel.jpg";
+import milkshakeImage from "../../assets/images/milkshake.jpg";
+import submarinoImage from "../../assets/images/submarino.jpg";
+import tortaImage from "../../assets/images/torta.jpg";
+import tostadoImage from "../../assets/images/tostado.jpg";
+import teImage from "../../assets/images/te.jpg";
+import croissantImage from "../../assets/images/croissant.jpg";
+import capuccinoImage from "../../assets/images/capuccino.jpg";
 
-export default function FotosDeComida() {
+export function Galery() {
   return (
     <ImageList sx={{ width: "100%", height: "100%" }} cols={3}>
       {itemData.map((item) => (
