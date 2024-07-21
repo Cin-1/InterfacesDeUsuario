@@ -46,6 +46,7 @@ export function NavBar() {
           <MenuIcon color={"white"} />
         </IconButton>
         <Button
+          href="#historia"
           variant="text"
           size="medium"
           sx={{ zIndex: "99" }}
@@ -53,10 +54,10 @@ export function NavBar() {
         >
           Historia
         </Button>
-        <Button variant="text" size="medium" color="white">
+        <Button  href="#menu" variant="text" size="medium" color="white">
           Menú
         </Button>
-        <Button variant="text" size="medium" color="white">
+        <Button  href="#mapa" variant="text" size="medium" color="white">
           Ubicación
         </Button>
         <Box

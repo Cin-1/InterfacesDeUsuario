@@ -99,7 +99,7 @@ export const Footer = () => {
                   color="textSecondary"
                   sx={{ width: "100%" }}
                 >
-                  <a href="https://lordicon.com/" target="_blank">
+                  <a href="https://github.com/Cin-1/InterfacesDeUsuario" target="_blank">
                     Link al repositorio
                   </a>
                 </Typography>

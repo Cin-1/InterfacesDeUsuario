@@ -6,6 +6,7 @@ import { Typography } from "@mui/material";
 export function HeroBanner() {
   return (
     <Box
+      id="historia"
       display="flex"
       px={2}
       pt={2}

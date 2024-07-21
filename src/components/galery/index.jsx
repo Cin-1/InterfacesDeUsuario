@@ -38,7 +38,7 @@ export function Galery() {
   };
 
   return (
-    <div>
+    <div id="menu">
       <Typography variant="h6">Total: ${totalAmount.toFixed(2)}</Typography>
       <ImageList sx={{ width: "100%" }} cols={3} rowHeight="auto">
         {items.map((item, index) => (

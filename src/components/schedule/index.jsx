@@ -5,7 +5,7 @@ import AccessTimeIcon from "@mui/icons-material/AccessTime";
 
 export function Schedule() {
   return (
-    <Box position="static" pb={"0px"} justifyContent={"space-between"}>
+    <Box id="mapa" position="static" pb={"0px"} justifyContent={"space-between"}>
       <BottomNavigation showLabels>
         <BottomNavigationAction
           disabled

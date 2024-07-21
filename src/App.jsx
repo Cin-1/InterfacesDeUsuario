@@ -15,7 +15,7 @@ function App() {
       <Layout>
         <NavBar />
         <Prueba />
-        <PageContainer>
+        <PageContainer >
           <HeroBanner />
           <Galery />
           <Schedule />
