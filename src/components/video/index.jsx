@@ -11,7 +11,7 @@ export default function VideoContainer() {
         fontWeight: "600",
       }}
     >
-      <Typography
+      <Typography color="primary"
         sx={{ textAlign: "center", fontSize: "30px", fontWeight: "999", pb: 2 }}
       >
         ¡Te esperamos para que conozcas la especialidad de la casa!
@@ -24,13 +24,16 @@ export default function VideoContainer() {
         }}
       >
         <Box sx={{ width: "50%", overflow: "hidden", position:"relative"}}>
+          <a href="https://youtu.be/Q7lnjV4XNbY" target="_blank">
           <img
+            
             src={tostadoImage}
             alt="Tostados del mundo"
             width="100%"
             height="100%"
             style={{ objectFit: "cover" }}
           />
+          </a>
         </Box>
         <iframe
           src="https://www.youtube.com/embed/Q7lnjV4XNbY?si=J4iZXO8JNQgKiw2I"
