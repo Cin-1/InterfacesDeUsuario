@@ -1,26 +1,15 @@
-import * as React from "react";
-import Box from "@mui/material/Box";
-import { BottomNavigation, BottomNavigationAction } from "@mui/material";
+import { BottomNavigation, BottomNavigationAction, Box } from "@mui/material"; // Import Button component
 import FaceIcon from "@mui/icons-material/Face";
 import Face4Icon from "@mui/icons-material/Face4";
 import Face6Icon from "@mui/icons-material/Face6";
 
 export function Footer() {
-  const [value, setValue] = React.useState(null);
-
   return (
-    <Box
-      width={"75%"}
-      position="absolute"
-      pb={"0px"}
-      justifyContent={"space-between"}
-    >
+    <Box position="absolute" pb={"0px"} justifyContent={"space-between"}>
       <BottomNavigation
         showLabels
-        value={value}
-        onChange={(event, newValue) => {
-          setValue(newValue);
-        }}
+        display="flex"
+        justifyContent={"space-between"}
       >
         <BottomNavigationAction
           disabled

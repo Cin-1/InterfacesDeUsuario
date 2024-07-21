@@ -8,7 +8,7 @@ import CoffeeIcon from "@mui/icons-material/Coffee";
 
 export function NavBar() {
   return (
-    <Box width={"100vw"} position="sticky" px="6" sx={{ zIndex: "9999" }}>
+    <Box width={"100vw"} position="sticky" px="6" sx={{ zIndex: "50" }}>
       <AppBar>
         <Box
           display={"flex"}
@@ -17,14 +17,14 @@ export function NavBar() {
           sx={{ mx: 4 }}
         >
           <IconButton
-            size="large"
+            size="medium"
             edge="start"
             color="inherit"
             aria-label="menu"
           >
             <MenuIcon />
           </IconButton>
-          <Button variant="contained" size="medium">
+          <Button variant="contained" size="medium" sx={{ zIndex: "99" }}>
             Historia
           </Button>
           <Button variant="contained" size="medium">
