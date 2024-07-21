@@ -18,7 +18,7 @@ export const PageContainer = ({ children }: PageContainerProps) => {
         flexDirection: "column",
         margin: "0 auto",
         px: { xs: 4, sm: 8 },
-        gap: 4,
+        gap: 3,
         overflow: { md: "hidden", lg: "visible" },
         bgcolor: "background.default",
       }}

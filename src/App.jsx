@@ -7,12 +7,14 @@ import { Map } from "./components/map";
 import { NavBar } from "./components/navBar";
 import { Schedule } from "./components/schedule";
 import VideoContainer from "./components/video";
+import { Prueba } from "./components/header";
 
 function App() {
   return (
     <>
       <Layout>
         <NavBar />
+        <Prueba />
         <PageContainer>
           <HeroBanner />
           <Galery />
