@@ -1,9 +1,9 @@
 import React from "react";
 import Box from "@mui/material/Box";
-import Cafe from "../assets/images/Coffee-Banner.webp";
+import Cafe from "../../assets/images/Coffee-Banner.webp";
 import { Typography } from "@mui/material";
 
-export function Prueba() {
+export function Banner() {
   return (
     <Box
       sx={{
