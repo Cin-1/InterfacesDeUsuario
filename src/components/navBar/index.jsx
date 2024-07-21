@@ -42,9 +42,6 @@ export function NavBar() {
           transition: "padding 500ms cubic-bezier(0.4, 0, 0.2, 1) !important",
         }}
       >
-        <IconButton size="medium" edge="start" aria-label="menu">
-          <MenuIcon color={"white"} />
-        </IconButton>
         <Button
           href="#historia"
           variant="text"
@@ -70,6 +67,8 @@ export function NavBar() {
             Tostados del mundo
           </Typography>
           <CoffeeIcon color="white" />
+
+          
         </Box>
       </Box>
     </AppBar>

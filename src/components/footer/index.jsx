@@ -11,7 +11,7 @@ export const Footer = () => {
         position="absolute"
         bottom={0}
         width={"100%"}
-        height={60}
+        height={10}
         margin={0}
         padding={0}
         sx={{
@@ -22,7 +22,7 @@ export const Footer = () => {
         <Box
           component="footer"
           sx={{
-            mt: 6,
+            mt: 0,
             display: "flex",
             alignItems: "center",
             flexDirection: "column",
@@ -37,7 +37,6 @@ export const Footer = () => {
               flexDirection: "column",
               alignItems: "center",
               width: "100%",
-              gap: "1rem",
               maxWidth: 900,
             }}
           >
@@ -54,17 +53,11 @@ export const Footer = () => {
                   <Typography variant="h6" color="textPrimary" fontWeight={500}>
                     Nicolas Trias
                   </Typography>
-                  <Typography variant="body1" color="textPrimary">
-                    Subtitulo
-                  </Typography>
                 </Box>
                 <Box sx={{ px: 2 }}>
                   <Face4Icon2 />
                   <Typography variant="h6" color="textPrimary" fontWeight={500}>
                     Cinthia Pardos
-                  </Typography>
-                  <Typography variant="body1" color="textPrimary">
-                    Subtitulo
                   </Typography>
                 </Box>
                 <Box>
@@ -72,16 +65,11 @@ export const Footer = () => {
                   <Typography variant="h6" color="textPrimary" fontWeight={500}>
                     Octavio Cecio
                   </Typography>
-                  <Typography variant="body1" color="textPrimary">
-                    Subtitulo
-                  </Typography>
                 </Box>
               </Box>
               <Box
                 sx={{
                   display: "flex",
-                  gap: "0.5rem",
-                  mt: 1,
                 }}
               ></Box>
             </Box>
@@ -92,8 +80,8 @@ export const Footer = () => {
                 alignItems: "center",
               }}
             >
-              © {new Date().getFullYear()}
-              <Box sx={{ display: "flex", gap: "0.25rem" }}>
+              © Construcción de interfaces de usuario - UNAHUR -  {new Date().getFullYear()} 
+              <Box sx={{ display: "flex" }}>
                 <Typography
                   variant="caption"
                   color="textSecondary"

@@ -1,6 +1,7 @@
 import Box from "@mui/material/Box";
 import tostadoImage from "../../assets/images/tostado.jpg";
 import { Typography } from "@mui/material";
+import { philosophyText } from "../heroBanner/texts";
 
 export default function VideoContainer() {
   return (
@@ -11,6 +12,7 @@ export default function VideoContainer() {
         fontWeight: "600",
       }}
     >
+      <Typography color="primary">{philosophyText}</Typography>
       <Typography color="primary"
         sx={{ textAlign: "center", fontSize: "30px", fontWeight: "999", pb: 2 }}
       >

@@ -1,6 +1,6 @@
 import Box from "@mui/material/Box";
 import tostadoImage from "../../assets/images/tostadoP.jpg";
-import { historyText, introText, philosophyText } from "./texts";
+import { historyText, introText } from "./texts";
 import { Typography } from "@mui/material";
 
 export function HeroBanner() {

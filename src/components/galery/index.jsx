@@ -33,13 +33,12 @@ export function Galery() {
     const newTotalAmount = items.reduce((total, item, idx) => {
       return total + item.price * newQuantities[idx];
     }, 0);
-
     setTotalAmount(newTotalAmount);
   };
 
   return (
     <div id="menu">
-      <Typography variant="h6">Total: ${totalAmount.toFixed(2)}</Typography>
+      <Typography textAlign="center" variant="h6" fontWeight={500}>Nuestro Menú</Typography>
       <ImageList sx={{ width: "100%" }} cols={3} rowHeight="auto">
         {items.map((item, index) => (
           <ImageListItem key={item.id} style={{ 
@@ -89,7 +88,9 @@ export function Galery() {
           </ImageListItem>
         ))}
       </ImageList>
-      <Typography color='primary'>El total es de ${totalAmount.toFixed(2)}.</Typography>
+      <Typography color='black'fontSize={20} fontWeight={999}>El total es de ${totalAmount.toFixed(2)}</Typography>
+      
     </div>
   );
-}
+  }
+
