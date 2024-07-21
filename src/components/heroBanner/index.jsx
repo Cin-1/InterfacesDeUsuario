@@ -13,8 +13,8 @@ export function HeroBanner() {
       color="primary"
       alignItems={"center"}
     >
-      <Typography>{introText}</Typography>
-      <Typography>{historyText}</Typography>
+      <Typography color="primary">{introText}</Typography>
+      <Typography color="primary">{historyText}</Typography>
       {/* <Typography>{philosophyText}</Typography> */}
       <Box>
         <img src={tostadoImage} alt="Tostado suizo" />

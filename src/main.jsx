@@ -4,6 +4,7 @@ import App from "./App.jsx";
 import "./index.css";
 import { ThemeProvider } from "@mui/material";
 import theme from "./theme.js";
+import "./components/galery/index.jsx" 
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
@@ -12,3 +13,4 @@ ReactDOM.createRoot(document.getElementById("root")).render(
     </ThemeProvider>
   </React.StrictMode>
 );
+
