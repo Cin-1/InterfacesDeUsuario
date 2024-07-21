@@ -7,7 +7,7 @@ export const Footer = () => {
   return (
     <>
       <Box
-        mt={6}
+        pt={6}
         position="absolute"
         bottom={0}
         width={"100%"}
@@ -93,17 +93,18 @@ export const Footer = () => {
               }}
             >
               © {new Date().getFullYear()}
-              <Box sx={{ display: "flex", gap: "0.25rem" }}></Box>
+              <Box sx={{ display: "flex", gap: "0.25rem" }}>
+                <Typography
+                  variant="caption"
+                  color="textSecondary"
+                  sx={{ width: "100%" }}
+                >
+                  <a href="https://lordicon.com/" target="_blank">
+                    Link al repositorio
+                  </a>
+                </Typography>
+              </Box>
             </Box>
-            <Typography
-              variant="caption"
-              color="textSecondary"
-              sx={{ width: "100%" }}
-            >
-              <a href="https://lordicon.com/" target="_blank">
-                Link al repositorio
-              </a>
-            </Typography>
           </Box>
         </Box>
       </Box>

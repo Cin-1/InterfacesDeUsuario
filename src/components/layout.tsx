@@ -7,20 +7,16 @@ interface PageContainerProps {
   children: React.ReactNode;
 }
 
-export const PageContainer = ({ children }: PageContainerProps) => {
+export const Layout = ({ children }: PageContainerProps) => {
   return (
     <Box
       sx={{
         position: "relative",
-        maxWidth: "1080px",
-        display: "flex",
-        flexDirection: "column",
-        margin: "0 auto",
-        px: { xs: 4, sm: 8 },
-        pt: 6,
-        gap: 4,
-        overflow: { md: "hidden", lg: "visible" },
-        bgcolor: "background.default",
+        width: "100%",
+        minWidth: "1100px",
+        minHeight: "100%",
+        margin: "0",
+        padding: "0",
       }}
     >
       {children}
