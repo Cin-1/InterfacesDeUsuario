@@ -5,7 +5,8 @@ Integrantes:
     Octavio Cecio
     Cinthia Pardos
     Nicolas Trias
-    
+
+npm i
 npm run dev en consola para correrlo
 
 Link deploy
