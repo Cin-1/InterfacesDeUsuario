@@ -15,7 +15,7 @@ export const Footer = () => {
         margin={0}
         padding={0}
         sx={{
-          backgroundColor: "secondary.main",
+          backgroundColor: "#66280a",
         }}
       >
         <Divider />
@@ -26,7 +26,7 @@ export const Footer = () => {
             display: "flex",
             alignItems: "center",
             flexDirection: "column",
-            backgroundColor: "secondary.main",
+            backgroundColor: "#c57d56",
             p: "2rem",
             justifyContent: "center",
           }}
@@ -47,22 +47,51 @@ export const Footer = () => {
                 alignItems: "center",
               }}
             >
-              <Box display="flex" justifyContent={"space-between"} >
-              <Box sx={{ display: 'flex', alignItems: 'center' }}>
-                <Face4Icon3 />
-                  <Typography variant="h6" color="textPrimary" fontWeight={500} mr={2} >
-                     Nicolas Trias
+              <Box display="flex" justifyContent={"space-between"} gap={3}>
+                <Box
+                  display={"flex"}
+                  flexDirection={"column"}
+                  justifyContent={"center"}
+                  alignItems={"center"}
+                >
+                  <Face4Icon3 />
+                  <Typography
+                    variant="h6"
+                    color="primary.dark"
+                    fontWeight={500}
+                    mr={2}
+                  >
+                    Nicolas Trias
                   </Typography>
                 </Box>
-                <Box sx={{ display: 'flex', alignItems: 'center' }}>
-                  <Face4Icon2 />
-                  <Typography variant="h6" color="textPrimary" fontWeight={500} mr={2}>
+                <Box
+                  display={"flex"}
+                  flexDirection={"column"}
+                  justifyContent={"center"}
+                  alignItems={"center"}
+                >
+                  <Face4Icon2 color="primary.dark" />
+                  <Typography
+                    variant="h6"
+                    color="primary.dark"
+                    fontWeight={500}
+                    mr={2}
+                  >
                     Cinthia Pardos
                   </Typography>
                 </Box>
-                <Box sx={{display: 'flex', alignItems: 'center'} }>
-                  <Face4Icon />
-                  <Typography variant="h6" color="textPrimary" fontWeight={500}>
+                <Box
+                  display={"flex"}
+                  flexDirection={"column"}
+                  justifyContent={"center"}
+                  alignItems={"center"}
+                >
+                  <Face4Icon color="primary.dark" />
+                  <Typography
+                    variant="h6"
+                    color="primary.dark"
+                    fontWeight={500}
+                  >
                     Octavio Cecio
                   </Typography>
                 </Box>
@@ -79,15 +108,21 @@ export const Footer = () => {
                 flexDirection: "column",
                 alignItems: "center",
               }}
+              color="primary.dark"
             >
-              © Construcción de interfaces de usuario - UNAHUR -  {new Date().getFullYear()} 
+              © Construcción de interfaces de usuario - UNAHUR -
+              {new Date().getFullYear()}
               <Box sx={{ display: "flex" }}>
                 <Typography
                   variant="caption"
-                  color="textSecondary"
+                  color="primary.dark"
                   sx={{ width: "100%" }}
                 >
-                  <a href="https://github.com/Cin-1/InterfacesDeUsuario" target="_blank">
+                  <a
+                    style={{ color: "inherit" }}
+                    href="https://github.com/Cin-1/InterfacesDeUsuario"
+                    target="_blank"
+                  >
                     Link al repositorio
                   </a>
                 </Typography>
@@ -99,6 +134,3 @@ export const Footer = () => {
     </>
   );
 };
-
-
- 
